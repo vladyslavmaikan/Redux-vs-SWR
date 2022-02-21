@@ -50,3 +50,14 @@ Testing app - it's a common todo list where we can able add, delete and check ou
 
 - SWR ![image](https://user-images.githubusercontent.com/99946293/154921372-a9296a26-c034-46b5-9390-78b83e80f6d5.png)
 
+# Conclusion from the author:
+SWR is not a full replacement for Redux (in most cases), rather it can serve as add-on.
+Or you should use it with useContext.
+SWR is replaced by React-Query and Redux-toolkit, a table comparing these libraries I will give below.
+In terms of performance I wouldn't say that Redux / Redux toolkit / React-query is inferior to SWR. Tests show that everything is within the margin of error.
+In answer to the question whether SWR can replace Redux on projects - it all depends on the project itself. SWR in combination with useContext would be fine on small projects where little or no state-managment is required.
+I also found options to use SWR in combination with redux, which is also one of the alternatives.
+
+## References:
+-Comparsion of React Query, SWR, Redux toolkit
+https://react-query.tanstack.com/comparison
