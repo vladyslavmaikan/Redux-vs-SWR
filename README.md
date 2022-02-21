@@ -1,9 +1,9 @@
 # Redux-vs-SWR
 
-## The purpose of this research is to understand the difference between Redux and SWR and whether the last can replace Redux in our projects.
+### The purpose of this research is to understand the difference between Redux and SWR and whether the last can replace Redux in our projects.
 
-## This repository includes two applications - one created with redux and the second one with SWR.
-## The goal of spike - find the better solution for our projects, we will compare optimisation, development speed and application complexity.
+### This repository includes two applications - one created with redux and the second one with SWR.
+### The goal of spike - find the better solution for our projects, we will compare optimisation, development speed and application complexity.
 
 ## Why Redux is Awesome
 It's unopinionated. Redux requires you to put your global state in a store, and to manage that state via reducers and actions. An action is a simple JavaScript object with a type property, and a reducer is a pure function that transforms the old state into the new state based on an action. Beyond this, everything else is up to you.
